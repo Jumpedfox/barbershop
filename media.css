@@ -1,0 +1,652 @@
+@media (min-width: 768px) {
+
+body {
+    width: 768px;
+}
+
+.main-page {
+    position: relative;
+    left: 80px;
+    width: 610px;
+    height: 680px;
+    background-image: url(./img/Slider\ img\ 3\ tablet.png);
+}
+
+.aside-block {
+    display: flex;
+    position: absolute;
+    top: 260px;
+    left: -260px;
+    width: 680px;
+    height: 160px;
+    background-color: white;
+    transform: rotate(-90deg);
+}
+
+.footer-block-line {
+    margin: 0px;
+}
+
+.aside-block .footer-block-item:first-child {
+    align-self: center;
+    width: auto;
+}
+
+.aside-block-items-list {
+    width: 270px;
+    margin: 0 0 0 40px;  
+    align-items: center;  
+
+}
+
+.header-block {
+    display: flex;
+    height: 100%;
+    padding: 0%;
+    z-index: 1;
+    justify-content: stretch;
+}
+
+.navigation {
+    width: 546px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 40px 0 24px;
+
+}
+
+.header-block-logo-picture {
+    width: 70px;
+    margin: 0 40px 0 50px;
+    fill: black;
+    /* display: none; */
+}
+
+.sidebar-block-logo-picture {
+    display: flex;
+}
+
+.menu-close-button-block, .menu-button{
+    display: none;
+}
+
+.main-menu-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+}
+
+.main-menu-list-item {
+    text-align: end;
+    margin: 0px;
+}
+
+.main-menu-list-item:last-child {
+    width: 100%;
+    margin-right: 18px;
+}
+
+.main-menu-list-item:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+.online-appointment4 {
+    color: white;
+    width: 160px;
+    height: 40px;
+    margin: 0px;
+    padding: 12px 0;
+}
+
+.content-borders {
+    width: 688px;
+    padding: 0px 40px;
+
+}
+
+.main-page .content-borders {
+    width: 530px;
+}
+
+.staff-page .content-borders {
+    width: 450px;
+    padding: 0px 160px;
+}
+
+
+.main-page-block {
+    width: 356px;
+    margin-top: 272px;
+    margin-right: 14px;
+}
+
+.about-page {
+    height: 704px;
+}
+
+.about-page-big-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.about-page-photos-block {
+    display: flex;
+    width: 330px;
+    height: 502px;
+}
+
+.about-page-photos-list-item {
+    width: 330px;
+    height: 234px;
+}
+
+.about-page-photos-list-item:first-child {
+    background-image: url(./img/tablet\ img\ 1.png);
+}
+
+.about-page-photos-list-item:last-child {
+    background-image: url(./img/tablet\ img\ 2.png);
+}
+
+.about-page-photos-list {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+}
+
+.about-page-block {
+    margin: 0 0 0 30px;
+}
+
+.price-page {
+    height: 858px;
+}
+
+section:nth-child(4) .content-borders {
+    background-image: url(./img/img\ tablet.png);
+}
+
+section:nth-child(9) .content-borders {
+    background-image: url(./img/img\ \(3\)\ tablet.png);
+}
+
+.price-list-block {
+    width: 630px;
+}
+
+.price-list-line:nth-child(1) .price-list-line-name:after {
+    width: 398px;
+}
+
+.price-list-line:nth-child(2) .price-list-line-name:after {
+    width: 400px;
+}
+
+.price-list-line:nth-child(3) .price-list-line-name:after {
+    width: 428px;
+}
+
+.price-list-line:nth-child(4) .price-list-line-name:after {
+    width: 390px;
+}
+
+.price-list-line:nth-child(5) .price-list-line-name:after {
+    width: 396px;
+}
+
+.price-list-line:nth-child(6) .price-list-line-name:after {
+    width: 370px;
+}
+
+.price-list-line:nth-child(7) .price-list-line-name:after {
+    width: 322px;
+}
+
+.price-list-line:nth-child(8) .price-list-line-name:after {
+    width: 338px;
+}
+
+.benefits-list-block {
+    width: 450px;
+    align-self: flex-end;
+}
+
+.benefits-page-block-pictures-part {
+    width: 450px;
+}
+
+
+.staff-page {
+    height: 1962px;
+}
+
+.staff-list-small-block {
+    width: 100%;
+}
+
+.staff-photo-1 {
+    background-image: url(./img/face1\ tab.png);
+}
+
+.staff-photo-2 {
+    background-image: url(./img/face2\ tab.png);
+}
+
+.staff-photo-3 {
+    background-image: url(./img/face3\ tab.png);
+}
+
+.gallery-page {
+    height: 1010px;
+}
+
+.gallery-list-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-list-line {
+    width: 330px;
+}
+
+.gallery-list-line:nth-child(1) {
+    background-image: url(./img/Rectangle\ 25\ tab.png);
+}
+
+.gallery-list-line:nth-child(2) {
+    background-image: url(./img/Rectangle\ 26\ tab.png);
+}
+
+.gallery-list-line:nth-child(3) {
+    background-image: url(./img/Rectangle\ 27\ tab.png);
+}
+
+.gallery-list-line:nth-child(4) {
+    background-image: url(./img/Rectangle\ 28\ tab.png);
+}
+
+.gallery-list-line:nth-child(2) {
+    margin-top: 44px;
+}
+
+.online-appointment-page {
+    height: 522px;
+}
+
+.online-appointment-list-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.online-appointment-list-line:not(:last-child) {
+    width: 330px;
+}
+
+.online-appointment-list-line:last-child {
+    width: 100%;
+}
+
+.online-appointment3 {
+    margin-left: 0px;
+}
+
+.contacts-page {
+    height: 450px;
+}
+
+.contacts-page-block-upper-part {
+    height: auto;
+    width: 330px;
+    margin-bottom: 40px;
+}
+
+.contacts-page-main-title {
+    text-align: start;
+    height: 42px;
+}
+
+.contacts-page-block-lower-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts-page-list {
+    width: 270px;
+    align-items: center;
+}
+
+.contacts-page-list-item:first-child .contacts-svg:first-child {
+    margin-bottom: 24px;
+}
+
+.footer-block-item {
+    height: 100%;
+    align-items: center;
+}
+
+.footer-block .footer-block-item:first-child {
+    margin-right: 254px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1280px) {
+
+body {
+    width: 1280px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+}
+
+.content-borders {
+    width: 1170px;
+    padding: 0px 55px;
+
+}
+
+.main-page {
+    position: relative;
+    left: 80px;
+    width: 1125px;
+    height: 680px;
+    background-image: url(./img/Slider\ img\ 3\ disp.png);
+    margin-left: 80px;
+}
+
+.main-page-block {
+    width: 100%;
+    margin: 272px 0 0 100px;
+}
+
+.navigation {
+    width: 1030px;
+    margin: 0 40px;
+}
+
+.main-menu-list-item:nth-child(4) {
+    margin-right: 282px;
+}
+
+.hidden {
+    display: block;
+}
+
+.not-hidden {
+    display: none;
+}
+
+.about-page {
+height: 706px;
+}
+
+.about-page-big-block {
+    justify-content: space-between;
+    margin-top: 130px;
+}
+
+.about-page-block {
+    width: 500px;
+    margin: 0 36px 0 0;
+}
+
+.about-page-big-title {
+    width: 100%;
+    font-size: 42px;
+    line-height: 49px;
+}
+
+.about-page-block-lower-part {
+    padding-right: 20px;
+}
+
+.about-page-first-small-text{
+    font-size: 18px;
+}
+
+.about-page-photos-block {
+    width: 570px;
+    height: 446px;
+}
+
+.about-page-photos-list {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-page-photos-list-item {
+    width: 270px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.about-page-photos-list-item:first-child {
+    background-image: url(./img/desc\ img\ 1.png)
+}
+
+.about-page-photos-list-item:last-child {
+    background-image: url(./img/desc\ img\ 2.png)
+}
+
+section:nth-child(4) .content-borders {
+    background-image: url(./img/desktop.png);
+}
+
+section:nth-child(9) .content-borders {
+    background-image: url(./img/Bg\ desk.png);
+    width: 514px;
+
+}
+
+.price-page {
+    height: 718px;
+}
+
+.price-page-block {
+    margin-top: 128px;
+}
+
+.price-list-block-background {
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+
+.price-list-block:first-child {
+    padding-bottom: 30px;
+    background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);;
+}
+
+.price-list-block:last-child {
+    padding-top: 30px;
+    background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+}
+
+.benefits-page {
+    height: 582px;
+}
+
+.benefits-page-block {
+    margin-top: 122px;
+}
+
+.benefits-page-block-parts {
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.benefits-page-block-text-part {
+    width: 500px;
+    margin: 10px 70px 0 0 ;
+}
+
+.benefits-page-block-pictures-part {
+    margin: 0 0 0 100px;
+    width: 370px;
+}
+
+.benefits-list-line {
+    width: 170px;
+}
+
+.benefits-list-block {
+    width: 100%;
+}
+
+.benefits-list-line:nth-child(even) {
+    margin-top: 32px;
+}
+
+.staff-page {
+    height: 890px;
+}
+
+.staff-page-block {
+    width: 100%;
+}
+
+.staff-list-block {
+    flex-direction: row;
+}
+
+.staff-list-line {
+    width: 370px;
+}
+
+.staff-page .content-borders {
+    width: 1170px;
+    padding: 0px 55px;
+}
+
+.staff-photo-1 {
+    background-image: url(./img/face\ 1\ desk.png);
+}
+
+.staff-photo-2 {
+    background-image: url(./img/face\ 2\ desk.png);
+}
+
+.staff-photo-3 {
+    background-image: url(./img/face\ 3\ desk.png);
+}
+
+.gallery-page {
+    height: 680px;
+}
+
+.gallery-page-block {
+    margin-top: 130px;
+}
+
+.gallery-list-line {
+    width: 270px;
+    height: 360px;  
+    margin-top: 44px;
+}
+
+.gallery-list-line:nth-child(1) {
+    background-image: url(./img/Rectangle\ 25\ desk.png);
+}
+
+.gallery-list-line:nth-child(2) {
+    background-image: url(./img/Rectangle\ 26\ desk.png);
+}
+
+.gallery-list-line:nth-child(3) {
+    background-image: url(./img/Rectangle\ 27\ desk.png);
+}
+
+.gallery-list-line:nth-child(4) {
+    background-image: url(./img/Rectangle\ 28\ desk.png);
+}
+
+.online-appointment-page {
+    width: 656px;
+}
+
+.contacts-page {
+    width: 624px;
+}
+
+.online-appointment-page .content-borders {
+    width: 560px;
+    padding-right: 40px;
+}
+
+.online-appointment-page, .contacts-page {
+    height: 644px;
+}
+
+.online-appointment-list-line:nth-child(1) {
+    width: 270px;
+}
+
+.online-appointment-list-line:nth-child(2) {
+    width: 260px;
+}
+
+.online-appointment-list-line:nth-child(3) {
+    width: 560px;
+}
+
+.online-appointment-page-block, .contacts-page-block {
+    margin-top: 130px;
+}
+
+.contacts-page-block-lower-part {
+    flex-direction: column;
+    width: 260px;
+}
+
+.contacts-page-list-item:last-child {
+    margin-bottom: 70px;
+}
+
+.online-appointment-page-block-upper-part {
+    margin-bottom: 40px;
+}
+
+.online-appointment3 {
+    margin: 44px 0 0;
+}
+
+.contacts-page-block-upper-part:last-child {
+    margin-bottom: 0px;;
+}
+
+.contacts-page-lower-title {
+    margin-bottom: 20px;
+}
+
+}
